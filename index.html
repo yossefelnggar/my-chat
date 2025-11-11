@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>محادثة خاصة</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
     <header>
-      <h1>محادثتي الخاصة</h1>
-      <button id="loginBtn">تسجيل الدخول بـ Google</button>
-      <button id="logoutBtn" class="hidden">تسجيل الخروج</button>
+        <h1>محادثتي الخاصة</h1>
+        <button id="loginBtn">تسجيل الدخول بـ Google</button>
+        <button id="logoutBtn" class="hidden">تسجيل الخروج</button>
     </header>
 
     <div id="app" class="hidden">
-      <aside id="sidebar">
-        <h3>المستخدمون</h3>
-        <ul id="usersList"></ul>
-      </aside>
+        
+        <aside id="sidebar">
+            <h3>المستخدمون</h3>
+            <ul id="usersList">
+                </ul>
+        </aside>
 
-      <main id="chatArea">
-        <div id="chatHeader">
-          <h2 id="chatWithUser">اختر مستخدماً لبدء المحادثة...</h2>
-        </div>
-
-        <div id="messages"></div>
-
-        <form id="messageForm" class="hidden">
-          <input
-            type="text"
-            id="messageInput"
-            placeholder="اكتب رسالتك..."
-            autocomplete="off"
-            required
-          />
-          <button type="submit">إرسال</button>
-        </form>
-      </main>
+        <main id="chatArea">
+            <div id="chatHeader">
+                <h2 id="chatWithUser">اختر مستخدماً لبدء المحادثة...</h2>
+            </div>
+            
+            <div id="messages">
+                </div>
+            
+            <form id="messageForm" class="hidden"> <input type="text" id="messageInput" placeholder="اكتب رسالتك..." autocomplete="off" required>
+                <button type="submit">إرسال</button>
+            </form>
+        </main>
     </div>
 
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore-compat.js"></script>
-
+    
     <script src="app.js"></script>
-  </body>
+</body>
 </html>
