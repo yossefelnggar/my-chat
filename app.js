@@ -1,15 +1,13 @@
-// 1. ضع هنا كود الإعداد الذي نسخته من Firebase
-// !! هام جداً: استبدل هذا الكود بالكود الخاص بك !!
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// 1. كود الإعداد الخاص بمشروعك الجديد "my-chat-ad03e"
+// !! هام: هذا المفتاح أصبح منشوراً علناً وسنحتاج لتغييره لاحقاً
 const firebaseConfig = {
-  apiKey: "AIzaSyAFMi4L-Um_bRY4Tm1XQKlxxv_eNdXtZJo",
-  authDomain: "chat-cc24b.firebaseapp.com",
-  databaseURL: "https://chat-cc24b-default-rtdb.firebaseio.com",
-  projectId: "chat-cc24b",
-  storageBucket: "chat-cc24b.firebasestorage.app",
-  messagingSenderId: "236766665963",
-  appId: "1:236766665963:web:c6e98448e4f797361132ae",
-  measurementId: "G-T2Y11PMCXF"
+  apiKey: "AIzaSyC1F8gKvyvyYYr0pYjIabhulUdP720_Eig",
+  authDomain: "my-chat-ad03e.firebaseapp.com",
+  projectId: "my-chat-ad03e",
+  storageBucket: "my-chat-ad03e.firebasestorage.app",
+  messagingSenderId: "32351043149",
+  appId: "1:32351043149:web:e2dd0dd8654c1569cea604",
+  measurementId: "G-EHBQJDHBPB"
 };
 
 // 2. تهيئة Firebase
